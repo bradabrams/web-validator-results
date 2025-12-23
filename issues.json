@@ -1,0 +1,109 @@
+{
+  "site": "https://docs.anthropic.com",
+  "final_domain": "https://platform.claude.com",
+  "validation_date": "2025-12-23",
+  "pages_crawled": 155,
+  "summary": {
+    "total_issues": 11,
+    "http_503_errors": 10,
+    "http_404_errors": 1,
+    "visual_issues": 0,
+    "console_errors": "minimal (CORS-related)",
+    "pages_ok": 144
+  },
+  "issues": [
+    {
+      "page_num": 60,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure",
+      "screenshot": "page_060.png"
+    },
+    {
+      "page_num": 61,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure",
+      "screenshot": "page_061.png"
+    },
+    {
+      "page_num": 62,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-generator",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure",
+      "screenshot": "page_062.png"
+    },
+    {
+      "page_num": 63,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure",
+      "screenshot": "page_063.png"
+    },
+    {
+      "page_num": 64,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure",
+      "screenshot": "page_064.png"
+    },
+    {
+      "page_num": 128,
+      "url": "https://platform.claude.com/llms-full.txt",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - LLM documentation file unavailable",
+      "screenshot": "page_128.png"
+    },
+    {
+      "page_num": 129,
+      "url": "https://platform.claude.com/login?returnTo=%2Fdocs%2Fen%2Frelease-notes%2Foverview",
+      "type": "http_503",
+      "severity": "medium",
+      "description": "HTTP 503 Service Unavailable - Login redirect failure",
+      "screenshot": "page_129.png"
+    },
+    {
+      "page_num": 130,
+      "url": "https://platform.claude.com/docs/en/about-claude/models",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - Models page unavailable",
+      "screenshot": "page_130.png"
+    },
+    {
+      "page_num": 131,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - Stop reasons documentation unavailable",
+      "screenshot": "page_131.png"
+    },
+    {
+      "page_num": 132,
+      "url": "https://platform.claude.com/docs/en/api/admin-api/organization/get-me",
+      "type": "http_503",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - Admin API endpoint docs unavailable",
+      "screenshot": "page_132.png"
+    },
+    {
+      "page_num": 134,
+      "url": "https://platform.claude.com/download",
+      "type": "http_404",
+      "severity": "medium",
+      "description": "HTTP 404 Not Found - Broken link, page does not exist",
+      "screenshot": "page_134.png"
+    }
+  ],
+  "visual_review": {
+    "pages_reviewed": 15,
+    "issues_found": 0,
+    "notes": "All reviewed pages showed clean layouts, proper code formatting, working tables, and consistent design. No visual bugs detected."
+  }
+}

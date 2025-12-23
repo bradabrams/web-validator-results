@@ -1,0 +1,77 @@
+{
+  "visual_review_date": "2025-12-23",
+  "site": "https://docs.anthropic.com",
+  "final_domain": "https://platform.claude.com",
+  "pages_reviewed": 15,
+  "issues": [
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai",
+      "screenshot": "page_060.png",
+      "type": "server_error",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure. Page shows raw error message: 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: TLS_error:|268435581:SSL routines:OPENSSL_internal:CERTIFICATE_VERIFY_FAILED:TLS_error_end'",
+      "location": "entire page"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "screenshot": "page_061.png",
+      "type": "server_error",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure. Page shows raw error message instead of content.",
+      "location": "entire page"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-generator",
+      "screenshot": "page_062.png",
+      "type": "server_error",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure. Page shows raw error message instead of content.",
+      "location": "entire page"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+      "screenshot": "page_063.png",
+      "type": "server_error",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure. Page shows raw error message instead of content.",
+      "location": "entire page"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver",
+      "screenshot": "page_064.png",
+      "type": "server_error",
+      "severity": "high",
+      "description": "HTTP 503 Service Unavailable - SSL/TLS certificate verification failure. Page shows raw error message instead of content.",
+      "location": "entire page"
+    }
+  ],
+  "pages_without_issues": [
+    {"page": "page_001.png", "url": "https://platform.claude.com/docs/en/home", "notes": "Clean home page with card layout"},
+    {"page": "page_002.png", "url": "https://platform.claude.com/docs/en/home", "notes": "Duplicate of home page"},
+    {"page": "page_003.png", "url": "https://platform.claude.com/docs/en/intro", "notes": "Intro page with info boxes renders correctly"},
+    {"page": "page_004.png", "url": "https://platform.claude.com/docs/en/api/overview", "notes": "API overview with code examples renders well"},
+    {"page": "page_005.png", "url": "https://platform.claude.com/docs/en/resources/overview", "notes": "Resources page with card grid"},
+    {"page": "page_006.png", "url": "https://platform.claude.com/docs/en/release-notes/overview", "notes": "Long release notes page renders correctly"},
+    {"page": "page_007.png", "url": "https://platform.claude.com/login", "notes": "Login page renders correctly"},
+    {"page": "page_008.png", "url": "https://platform.claude.com/docs/en/get-started", "notes": "Quickstart with code tabs renders correctly"},
+    {"page": "page_009.png", "url": "https://platform.claude.com/docs/en/about-claude/models/overview", "notes": "Models comparison table renders correctly"},
+    {"page": "page_010.png", "url": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model", "notes": "Model selection matrix renders correctly"},
+    {"page": "page_014.png", "url": "https://platform.claude.com/docs/en/about-claude/pricing", "notes": "Pricing tables render correctly"},
+    {"page": "page_092.png", "url": "https://platform.claude.com/docs/en/resources/prompt-library/library", "notes": "Prompt library card grid renders beautifully"}
+  ],
+  "summary": {
+    "total_issues_found": 5,
+    "issues_by_severity": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "issues_by_type": {
+      "server_error": 5,
+      "layout_issue": 0,
+      "missing_image": 0,
+      "text_problem": 0,
+      "alignment_issue": 0
+    }
+  }
+}
